@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RMD SNACK — snack créole Saint-André</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <a href="#" class="navbar__logo">RMD SNACK</a>
+    <a href="tel:+262 692 11 32 53" class="navbar__reserve">Réserver</a>
+    <button class="navbar__burger" id="burgerBtn" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <!-- Full-screen nav overlay -->
+  <nav class="nav-overlay" id="navOverlay">
+    <ul class="nav-overlay__links">
+      <li><a href="#intro">Notre histoire</a></li>
+      <li><a href="#plats">La Carte</a></li>
+      <li><a href="#ambiance">Galerie</a></li>
+      <li><a href="#avis">Avis</a></li>
+      <li><a href="#infos">Infos</a></li>
+      <li class="nav-overlay__cta"><a href="tel:+262 692 11 32 53">Réserver</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO — Massive centered title + image below -->
+  <section class="hero" id="hero">
+    <div class="hero__content">
+      <span class="hero__badge">snack créole</span>
+      <h1 class="hero__title">RMD SNACK</h1>
+      <p class="hero__subtitle">Depuis de nombreuses années, le RMD SNACK vous accueille à Saint-André pour vous offrir la véritable saveur de la cuisine réunionnaise. Nous préparons chaque plat avec passion et authenticité, en utilisant des ingrédients frais et traditionnels. Notre snack est le lieu idéal pour déguster des spécialités créoles dans une ambiance conviviale et accueillante.</p>
+    </div>
+    <div class="hero__image">
+      <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweqaRbi0OV7zv94yc04Z_AAO7xYgFgzMGqPcpXJkHsZhtw0PjKJ0fBQRQFjG4QxbAZ8aVxOXVW9L17g41u3Y8KDh8R1SoFov8M3cWKiSMtr_gQGnv0Lgp1tnbQYb9MYmS1TsRiYu=w800-h600-k-no" alt="RMD SNACK — snack créole">
+    </div>
+    <div class="hero__trust">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="#C43B3B" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      <span>4.2/5 — 25 avis</span>
+    </div>
+  </section>
+
+  <hr class="section-rule">
+
+  <!-- INTRO — Single column centered -->
+  <section class="intro" id="intro">
+    <div class="intro__content reveal-up">
+      <span class="intro__label">01 — Notre histoire</span>
+      <p class="intro__text">Depuis de nombreuses années, le RMD SNACK vous accueille à Saint-André pour vous offrir la véritable saveur de la cuisine réunionnaise. Nous préparons chaque plat avec passion et authenticité, en utilisant des ingrédients frais et traditionnels. Notre snack est le lieu idéal pour déguster des spécialités créoles dans une ambiance conviviale et accueillante. Nos plats sont préparés à emporter, parfaits pour un repas rapide et savoureux. Que vous soyez pressé ou que vous ayez le temps de savourer,</p>
+    </div>
+    <div class="intro__image reveal-up">
+      <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweoiNEQax3z5A1gyixGL6GRklVgqVd8QDY6EG-Vk9PEOdH4llNHuDfq8_EfTB1IeK34FjngKxXBM5QGnlFBQAViUgGtCajrMU7S1y7WZuxjsOq9TAisA0Sdhtu4EA_-HJfFDDfJbdQ=w800-h600-k-no" alt="À propos de RMD SNACK" loading="lazy">
+    </div>
+  </section>
+
+  <hr class="section-rule">
+
+  <!-- PLATS — Elegant list with images -->
+  <section class="plats" id="plats">
+    <div class="plats__header reveal-up">
+      <span class="plats__label">02 — La Carte</span>
+    </div>
+    <div class="plats__list">
+      <div class="plats__item reveal-up">
+        <div class="plats__item-image">
+          <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweoOVYvTzU9_BPL-nxdoCeb9gpngKJMTFwRrcWSOiIQyyc4s5nSCCAuf5RoLCftR94cY7FTFKnkJslHAJlcuTa48OZKiGH81fjcohbhtFD8xcDozH4ic90Hc3u01OWFROJxEbMhg=w800-h600-k-no" alt="Entrées" loading="lazy">
+        </div>
+        <div class="plats__item-info">
+          <h3 class="plats__item-name">Entrées</h3>
+          <div class="plats__item-line"></div>
+        </div>
+      </div>
+      <div class="plats__item reveal-up">
+        <div class="plats__item-image">
+          <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweqyoKeNWrd04BEdveANWFwWKEVfdmo9SG9a-x8VusZ5BPI991z4p5DAwmCyUoIsmELHglwX7O3UUberYoxefRyCfLc82XX4Ph-2eJTkEQ6JcweSEoUSdp8uGMZv-Sz-K9-1uKsT=w800-h600-k-no" alt="Plats" loading="lazy">
+        </div>
+        <div class="plats__item-info">
+          <h3 class="plats__item-name">Plats</h3>
+          <div class="plats__item-line"></div>
+        </div>
+      </div>
+      <div class="plats__item reveal-up">
+        <div class="plats__item-image">
+          <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweo3ZKt_BQ85wZbB_YF_oOQd_5XK4pt_EvjXlNOPJCgi3Otp9g1S8h2hkL-PRqYwzFHgzYZnfyXLYiMUdSa98XBbHRlq2coP8p_37-svWevCK-RDeXzt2tFStHBEceR9bSK_WLstfTO8epP_=w800-h600-k-no" alt="Desserts" loading="lazy">
+        </div>
+        <div class="plats__item-info">
+          <h3 class="plats__item-name">Desserts</h3>
+          <div class="plats__item-line"></div>
+        </div>
+      </div>
+      <div class="plats__item reveal-up">
+        <div class="plats__item-image">
+          <img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweqE3wjwuodZ4Aol7CsKn7JEofpPZ9JKSZo5LYzF1H11vbgqQQND2xyi8U-_GGJNm4ZH4AzVN-sYL7YLhCjkcD-fLvXJXT9d9zGdVbfIUa2A3ktRKXhN6l69rCwgZizbYwdt2Z88=w800-h600-k-no" alt="Boissons" loading="lazy">
+        </div>
+        <div class="plats__item-info">
+          <h3 class="plats__item-name">Boissons</h3>
+          <div class="plats__item-line"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="section-rule">
+
+  <!-- AMBIANCE — Single column gallery -->
+  <section class="ambiance" id="ambiance">
+    <div class="ambiance__header reveal-up">
+      <span class="ambiance__label">03 — Galerie</span>
+    </div>
+    <div class="ambiance__images">
+      <div class="ambiance__img reveal-up"><img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweqZ3Fo1mNmrnErNVKoE2cQWxIM1MzZOljH108mdJOby9e0ofJq0cvWcLd5rGPWFUnKp5-76wYHrsyUm06ioqYJCcGGN-VRnqI6dTm0QYtLvYARGJdcLN8ih0IR7FUBYaZlkq88=w800-h600-k-no" alt="Ambiance RMD SNACK" loading="lazy"></div>
+      <div class="ambiance__img reveal-up"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='600' viewBox='0 0 800 600'%3E%3Crect width='800' height='600' fill='%23e8e4df'/%3E%3Cg transform='translate(400,270)' opacity='0.35'%3E%3Crect x='-40' y='-30' width='80' height='60' rx='8' fill='none' stroke='%23888' stroke-width='3'/%3E%3Ccircle cx='0' cy='0' r='16' fill='none' stroke='%23888' stroke-width='3'/%3E%3Ccircle cx='0' cy='0' r='6' fill='%23888'/%3E%3Crect x='-22' y='-30' width='14' height='8' rx='2' fill='%23888'/%3E%3C/g%3E%3Ctext x='400' y='340' text-anchor='middle' font-family='system-ui,sans-serif' font-size='18' fill='%23999' letter-spacing='2'%3EPhoto %C3%A0 venir%3C/text%3E%3C/svg%3E" alt="Intérieur RMD SNACK" loading="lazy"></div>
+      <div class="ambiance__img reveal-up"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='600' viewBox='0 0 800 600'%3E%3Crect width='800' height='600' fill='%23e8e4df'/%3E%3Cg transform='translate(400,270)' opacity='0.35'%3E%3Crect x='-40' y='-30' width='80' height='60' rx='8' fill='none' stroke='%23888' stroke-width='3'/%3E%3Ccircle cx='0' cy='0' r='16' fill='none' stroke='%23888' stroke-width='3'/%3E%3Ccircle cx='0' cy='0' r='6' fill='%23888'/%3E%3Crect x='-22' y='-30' width='14' height='8' rx='2' fill='%23888'/%3E%3C/g%3E%3Ctext x='400' y='340' text-anchor='middle' font-family='system-ui,sans-serif' font-size='18' fill='%23999' letter-spacing='2'%3EPhoto %C3%A0 venir%3C/text%3E%3C/svg%3E" alt="Cuisine RMD SNACK" loading="lazy"></div>
+      <div class="ambiance__img reveal-up"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='600' viewBox='0 0 800 600'%3E%3Crect width='800' height='600' fill='%23e8e4df'/%3E%3Cg transform='translate(400,270)' opacity='0.35'%3E%3Crect x='-40' y='-30' width='80' height='60' rx='8' fill='none' stroke='%23888' stroke-width='3'/%3E%3Ccircle cx='0' cy='0' r='16' fill='none' stroke='%23888' stroke-width='3'/%3E%3Ccircle cx='0' cy='0' r='6' fill='%23888'/%3E%3Crect x='-22' y='-30' width='14' height='8' rx='2' fill='%23888'/%3E%3C/g%3E%3Ctext x='400' y='340' text-anchor='middle' font-family='system-ui,sans-serif' font-size='18' fill='%23999' letter-spacing='2'%3EPhoto %C3%A0 venir%3C/text%3E%3C/svg%3E" alt="Terrasse RMD SNACK" loading="lazy"></div>
+      <div class="ambiance__img reveal-up"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='600' viewBox='0 0 800 600'%3E%3Crect width='800' height='600' fill='%23e8e4df'/%3E%3Cg transform='translate(400,270)' opacity='0.35'%3E%3Crect x='-40' y='-30' width='80' height='60' rx='8' fill='none' stroke='%23888' stroke-width='3'/%3E%3Ccircle cx='0' cy='0' r='16' fill='none' stroke='%23888' stroke-width='3'/%3E%3Ccircle cx='0' cy='0' r='6' fill='%23888'/%3E%3Crect x='-22' y='-30' width='14' height='8' rx='2' fill='%23888'/%3E%3C/g%3E%3Ctext x='400' y='340' text-anchor='middle' font-family='system-ui,sans-serif' font-size='18' fill='%23999' letter-spacing='2'%3EPhoto %C3%A0 venir%3C/text%3E%3C/svg%3E" alt="Détails RMD SNACK" loading="lazy"></div>
+      <div class="ambiance__img reveal-up"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='600' viewBox='0 0 800 600'%3E%3Crect width='800' height='600' fill='%23e8e4df'/%3E%3Cg transform='translate(400,270)' opacity='0.35'%3E%3Crect x='-40' y='-30' width='80' height='60' rx='8' fill='none' stroke='%23888' stroke-width='3'/%3E%3Ccircle cx='0' cy='0' r='16' fill='none' stroke='%23888' stroke-width='3'/%3E%3Ccircle cx='0' cy='0' r='6' fill='%23888'/%3E%3Crect x='-22' y='-30' width='14' height='8' rx='2' fill='%23888'/%3E%3C/g%3E%3Ctext x='400' y='340' text-anchor='middle' font-family='system-ui,sans-serif' font-size='18' fill='%23999' letter-spacing='2'%3EPhoto %C3%A0 venir%3C/text%3E%3C/svg%3E" alt="Plat RMD SNACK" loading="lazy"></div>
+    </div>
+  </section>
+
+  <hr class="section-rule">
+
+  <!-- AVIS -->
+  <section class="avis" id="avis">
+    <div class="avis__header reveal-up">
+      <span class="avis__label">04 — Avis</span>
+    </div>
+    <blockquote class="avis__main reveal-up">
+      <p>"Rapide, bon et copieux ! Les produits sont frais et les prix sont corrects. Mon snack préféré à Saint-André."</p>
+      <cite>Marie L.</cite>
+    </blockquote>
+    <div class="avis__secondary">
+      <blockquote class="avis__small reveal-up">
+        <p>"Super adresse pour manger sur le pouce. Tout est fait maison, on sent la qualité. Je recommande !"</p>
+        <cite>Didier G.</cite>
+      </blockquote>
+      <blockquote class="avis__small reveal-up">
+        <p>"Accueil sympa et portions généreuses. Le rapport qualité-prix est imbattable. On y retourne souvent."</p>
+        <cite>Céline W.</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <hr class="section-rule">
+
+  <!-- INFOS -->
+  <section class="infos" id="infos">
+    <div class="infos__content">
+      <div class="infos__horaires reveal-up">
+        <span class="infos__label">05 — Horaires</span>
+        <table class="infos__table">
+          <tbody>
+            <tr data-day="1"><td>Lundi</td><td>10h00 - 18h00</td></tr>
+            <tr data-day="2"><td>Mardi</td><td>10h00 - 18h00</td></tr>
+            <tr data-day="3"><td>Mercredi</td><td>10h00 - 18h00</td></tr>
+            <tr data-day="4"><td>Jeudi</td><td>10h00 - 18h00</td></tr>
+            <tr data-day="5"><td>Vendredi</td><td>10h00 - 19h00</td></tr>
+            <tr data-day="6"><td>Samedi</td><td>10h00 - 19h00</td></tr>
+            <tr data-day="0"><td>Dimanche</td><td>Fermé</td></tr>
+          </tbody>
+        </table>
+        <p class="infos__address">333 Chemin de Bois Rouge, 97440 Saint-André</p>
+      </div>
+      <div class="infos__map reveal-up">
+        <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=-20.88,55.45&zoom=15" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Localisation de RMD SNACK"></iframe>
+      </div>
+    </div>
+    <div class="infos__actions reveal-up">
+      <a href="tel:+262 692 11 32 53" class="infos__link">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Appeler <span class="infos__link-arrow">&rarr;</span>
+      </a>
+      <a href="https://wa.me/262692113253" class="infos__link" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+        WhatsApp <span class="infos__link-arrow">&rarr;</span>
+      </a>
+      <a href="https://www.google.com/maps/dir/?api=1&destination=-20.88,55.45" class="infos__link" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Y aller <span class="infos__link-arrow">&rarr;</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <hr class="footer__rule">
+    <div class="footer__inner">
+      <span class="footer__name">RMD SNACK</span>
+      <span class="footer__address">333 Chemin de Bois Rouge, 97440 Saint-André</span>
+      <span class="footer__credit">Site par <a href="https://lynopi.com" target="_blank" rel="noopener">Lynopi</a></span>
+    </div>
+  </footer>
+
+  <!-- STICKY MOBILE CTA -->
+  <div class="mobile-cta" id="mobileCta">
+    <a href="tel:+262 692 11 32 53" class="mobile-cta__btn mobile-cta__btn--call">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      <span>Appeler</span>
+    </a>
+    <a href="https://wa.me/262692113253" class="mobile-cta__btn mobile-cta__btn--wa" target="_blank" rel="noopener">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+      <span>WhatsApp</span>
+    </a>
+    <a href="https://www.google.com/maps/dir/?api=1&destination=-20.88,55.45" class="mobile-cta__btn mobile-cta__btn--map" target="_blank" rel="noopener">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      <span>Y aller</span>
+    </a>
+  </div>
+
+  <script>
+    (function() {
+      'use strict';
+      var burger = document.getElementById('burgerBtn');
+      var overlay = document.getElementById('navOverlay');
+      var overlayLinks = overlay.querySelectorAll('a');
+      burger.addEventListener('click', function() {
+        var isOpen = overlay.classList.toggle('is-open');
+        burger.classList.toggle('is-open');
+        burger.setAttribute('aria-expanded', isOpen);
+        document.body.classList.toggle('menu-open', isOpen);
+      });
+      overlayLinks.forEach(function(link) {
+        link.addEventListener('click', function() {
+          overlay.classList.remove('is-open');
+          burger.classList.remove('is-open');
+          burger.setAttribute('aria-expanded', 'false');
+          document.body.classList.remove('menu-open');
+        });
+      });
+      var navbar = document.getElementById('navbar');
+      var lastScroll = 0;
+      window.addEventListener('scroll', function() {
+        var s = window.pageYOffset;
+        navbar.classList.toggle('is-scrolled', s > 80);
+        if (s > 300) navbar.classList.toggle('is-hidden', s > lastScroll);
+        lastScroll = s;
+      }, { passive: true });
+      var today = new Date().getDay();
+      document.querySelectorAll('.infos__table tr[data-day]').forEach(function(row) {
+        if (parseInt(row.getAttribute('data-day')) === today) row.classList.add('is-today');
+      });
+      var prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var reveals = document.querySelectorAll('.reveal-left, .reveal-right, .reveal-up');
+      if (!prefersReduced && 'IntersectionObserver' in window) {
+        var obs = new IntersectionObserver(function(entries) {
+          entries.forEach(function(e) { if (e.isIntersecting) { e.target.classList.add('is-visible'); obs.unobserve(e.target); } });
+        }, { threshold: 0.1, rootMargin: '0px 0px -80px 0px' });
+        reveals.forEach(function(el) { obs.observe(el); });
+      } else {
+        reveals.forEach(function(el) { el.classList.add('is-visible'); });
+      }
+      document.querySelectorAll('a[href^="#"]').forEach(function(a) {
+        a.addEventListener('click', function(e) {
+          var id = this.getAttribute('href'); if (id === '#') return;
+          var t = document.querySelector(id); if (t) { e.preventDefault(); window.scrollTo({ top: t.getBoundingClientRect().top + window.pageYOffset - 100, behavior: 'smooth' }); }
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
